@@ -10,7 +10,7 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <div>
+    <div style={{marginTop:"10rem"}}>
       <Navbar />
       <Routes>
         <Route path='/' element={<JobSwireTest />} />

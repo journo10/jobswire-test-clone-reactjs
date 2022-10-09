@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Sofia&display=swap');
+
+.nav {
+    width: 100%;
+    max-width: 100%;
+    height: 8.25rem;
+    max-height: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.nav .container {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 10rem;
+    margin: 0 auto;
+}
+
+.nav .container .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav .container .logo img {
+    width: 3rem;
+    height: 5rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.nav .container .logo .logo-title a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    color: #f4756c;
+}
+
+.nav .container .logo .logo-title a>h3 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    line-height: normal;
+}
+
+.nav .container .logo .logo-title a>span {
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'Sofia', cursive;
+    line-height: normal;
+}
+
+.nav .container .nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: transparent;
+    margin: 0 2rem 0 0;
+}
+
+.nav .container .nav-list .nav-item {
+    font-size: 2.25rem;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: normal;
+    padding: 1rem;
+    margin: 0;
+}
+
+.nav .container .nav-list .nav-item a:active {
+    display: block;
+    color: #000;
+}
+
+.nav .container .nav-list .nav-item a:hover {
+    display: block;
+    color: #f4756c;
+}
+
+.menu {
+    display: none;
+}
+
+/* Responsive */
+@media screen and (max-width:768px) {
+    .menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu i {
+        font-size: 2.5rem;
+    }
+
+    .nav .nav-list {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        top: 90px;
+        left: -100%;
+        height: 100vh;
+        width: 100%;
+        background-color: #eee;
+        transition: ease-in-out .9s;
+        z-index: 99;
+    }
+
+    .nav .active {
+        left: 0;
+    }
+
+    .nav .nav-list .nav-item  {
+        font-size: 2rem;
+    }
+
+}

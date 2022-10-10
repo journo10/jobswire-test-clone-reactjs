@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import logo_Img from "../../images/svg/logo.png"
+import Header from "../Header";
 import "./Navbar.css";
 
 
@@ -16,6 +17,7 @@ const Navbar = () => {
   }
 
   return (
+    <>
     <nav className="nav">
       <div className="container">
         <div className="logo">
@@ -37,6 +39,8 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+    <Header />
+    </>
   );
 };
 

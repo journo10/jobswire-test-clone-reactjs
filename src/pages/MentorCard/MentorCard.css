@@ -1,0 +1,75 @@
+.card {
+    width: 350px;
+    height: 400px;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 5rem;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.card img {
+    width: 95px;
+    height: 95px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.card .card-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.card .card-text h5 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: normal;
+    font-family: inherit;
+}
+
+.card .card-text h6 {
+    font-size: 1.85rem;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: normal;
+    font-family: inherit;
+}
+
+.card .card-text p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: normal;
+    font-family: inherit;
+    text-align: center;
+}
+
+.card .card-text p>.card-btn {
+    font-size: 1.75rem;
+    font-size: 300;
+    line-height: normal;
+    letter-spacing: normal;
+    font-family: inherit;
+    color: #f4756c;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+    position: absolute;
+    left: 35%;
+    top: 83%;
+    transition: all .2s ease;
+}
+
+.card .card-text p>.card-btn:hover {
+    font-weight: 500;
+}

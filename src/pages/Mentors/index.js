@@ -7,11 +7,15 @@ const Mentors = () => {
   const { items } = useJobSwire();
 
   return (
-    <div className="container-mentors">
+    <>
+    <h1>Mentorlarımız</h1>
+     <div className="container-mentors">
       {items.map((item, key) => (
         <MentorCard key={key} item={item} />
       ))}
     </div>
+    </>
+   
   );
 };
 

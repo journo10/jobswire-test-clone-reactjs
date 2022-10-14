@@ -73,3 +73,11 @@
 .card .card-text p>.card-btn:hover {
     font-weight: 500;
 }
+
+/* Responsive */
+@media screen and (max-width:768px) {
+    .card {
+        width: 550px;
+        height: 400px;    
+    }
+}

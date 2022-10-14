@@ -7,7 +7,7 @@ const Modal = ({ openModal, onClose, item}) => {
   }
 
   return (
-    <div className="m-card">
+    <div className="m-card" >
       <div className="modal">
         <img src={item.image} alt="m-images" />
         <div className="modal-text">

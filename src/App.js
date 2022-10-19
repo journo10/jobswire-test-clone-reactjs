@@ -8,6 +8,7 @@ import Mentors from "./pages/Mentors";
 import Hiring from "./pages/Hiring";
 import Contact from "./pages/Contact";
 import TestForm from './components/TestForm';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />  
         <Route path='/test-form' element={<TestForm />} />  
       </Routes>
+      <Footer />
     </div>
   )
 }

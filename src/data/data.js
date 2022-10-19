@@ -1,98 +1,98 @@
-import image_1 from "../images/png/senem-gumussoy4.3368e8c9.png";
-import image_2 from "../images/png/nazli-ersen.c647c455.png";
-import image_3 from "../images/png/arda-öztürk.png";
-import image_4 from "../images/png/alıkemal.39902ca4.png";
-import image_5 from "../images/png/onur-el.e31ddc4a.png";
-import image_6 from "../images/png/iremçetinJPG.0c7ab51f.png";
-import image_7 from "../images/png/mentor_samet_atdag.6c47f650.png";
-import image_8 from "../images/png/bariscan-gungor.7c5a546c.png";
-import image_9 from "../images/png/barkin-ozdemir.8eaf3e54.png";
-import image_10 from "../images/png/osman-aytaman.0322c967.png";
-import image_11 from "../images/png/yigit_erdogan.9a2557f6.png";
-import image_12 from "../images/png/kemal-hakimoglu.a1f0b4c7.png";
+import image_1 from "../images/png/Cristiano_Ronaldo.png";
+import image_2 from "../images/png/lionel-messi.png";
+import image_3 from "../images/png/neymar.jpg";
+import image_4 from"../images/png/benzema.png";
+import image_5 from "../images/png/Mohamed_Salah.png";
+import image_6 from "../images/png/drogba.png";
+import image_7 from "../images/png/lampard.png";
+import image_8 from "../images/png/gerrrard.png";
+import image_9 from "../images/png/selçuk.png";
+import image_10 from "../images/png/kevin.png";
+import image_11 from "../images/png/wesley-sneijder.png";
+import image_12 from "../images/png/hagi.png";
 
 export const data = [{
         id: 1,
-        name: "Senem Gümüşsoy",
-        title: "Consultant @SOS Business Consultancy",
-        desc: "Senem Gümüşsoy, Dokuz Eylül Üniversitesi İktisat bölümünü bitirdi. Üniversite eğitiminden sonra bankacılık sektöründe çalıştı, sonrasında eğitim sebebiyle İngiltere’ye yerleşti. Hala İngiltere’de yaşamına devam etmekte olup, şu anda kendi danışmanlık firmasıyla girişimlere finans alanında yardımcı olmaktadır.",
+        name: "Cristiano Ronaldo",
+        title: "Real Madrid",
+        desc: "Cristiano Ronaldo dos Santos Aveiro, Premier League ekiplerinden Manchester United için forvet olarak oynayan ve Portekiz millî takımının kaptanlığını yapan Portekizli profesyonel bir futbolcudur.",
         image: image_1,
     },
     {
         id: 2,
-        name: "Nazlı Erşen",
-        title: "Founder @Blink Minds",
-        desc: "Nazlı Erşen, 2006'da Columbia Üniversitesi'nde Finans bölümünden mezun olduktan sonra NYU'da İK Yönetimi, Organizasyonel Gelişim üzerine yüksek lisansını tamamladı.'Ben de varım' diyen, gelecek nesillerin hayallerine yol göstermek için 'Blink Minds'ı, 2020'nin mayıs ayında kurdu. Blink Minds gelecek nesillere güçlü, büyüyen şirketler sunmayı ve gelecek nesillerin eğitimine destek vererek öz farkındalığı yüksek bireyler yetiştirmeyi amaçlıyor.",
+        name: "Lionel Messi",
+        title: "Barcelona",
+        desc: "Lionel Andrés Messi Cuccittini[3] 24 Haziran 1987, Rosario), ayrıca Leo Messi olarak da bilinir, Ligue 1 takımlarından Paris Saint-Germain'de forma giyen ve Arjantin millî takımının kaptanlığını yapan Arjantinli futbolcudur. Tüm zamanların en iyi futbolcularından biri olarak kabul edilen Messi,[4][5] genellikle kimin en iyisi olduğuna dair Cristiano Ronaldo'yla karşılaştırılmaktadır.[6] Yedi Ballon d'Or ve altı Altın Ayakkabı kazanarak iki ödülde de rekor kıran oyuncu, 2020 yılında Ballon d'Or Rüya Takımı'na seçilmiştir.",
         image: image_2,
     },
     {
         id: 3,
-        name: "Arda Öztürk",
-        title: "Learning Experience Manager @Userspots Akademi",
-        desc: "Userspots Akademi'de Learning Experience Manager olarak görev almakta olan Arda Öztürk; bireysel ve kurumsal eğitimler, video eğitimler vermektedir. Bunların yanı sıra JR UX Designer, UX Camp ve UX Okulu projelerini yönetmektedir. Arda Öztürk; bu eğitimler sırasında ileride meslektaşı olacak gençlere yol gösterebildiği ve kariyer planlamalarında yol ışığı olabildiği için yaptığı işi çok sevdiğini vurguluyor.",
+        name: "Neymar da Silva Santos Júnior",
+        title: "Barcelona",
+        desc: "2009 Campeonato Paulista'da Yılın Genç Futbolcusu ödülünün sahibi olmuştur.[5] 2011 ve 2012 yılında Güney Amerika'da Yılın Futbolcusu seçilmiştir.[6][7] 2011 yılında Santos - Flamengo maçının 26. dakikasında attığı gol, FIFA tarafından 2011 yılının en iyi golü seçilmiştir ve Neymar 2011 FIFA Puskás Ödülü'nün sahibi olmuştur.[8][9][10] 2013 yılında Millî takımıyla almış olduğu FIFA Konfederasyonlar Kupası turnuvasının sonunda Adidas Altın Top ödülüne layık görülmüştür.[11] Bu turnuvada çıktığı 5 maçta (412 dakika) 4 gol atmıştır[12] ve turnuvanın final maçında maçın adamı seçilmiştir",
         image: image_3,
     },
     {
         id: 4,
-        name: "Ali Kemal Kapıcıoğlu",
-        title: "Trade Marketing and Sales Director @Yıldız Holding",
-        desc: "Ali Kemal Kapıcıoğlu, 2002 yılında Marmara Üniversitesi Siyaset Bilimi ve Kamu Yönetimi bölümünden mezun oldu. 2004 yılında Ülker Yıldız Holding'te işe başladı ve Yıldız Holding çatısı altında Satış, Ticari pazarlama, Proje Müdürlüğü gibi farklı alanlarda çalıştı. 2018 yılından beri Yıldız Holding'in iştiraki olan Besler Yağ-Margarin şirketinde ‘’Ticari pazarlama ve satış direktörü’’ olarak görev yapmaya devam ediyor.",
+        name: "Karim Benzema",
+        title: "Real Madrid",
+        desc: "1996 yılında şehrin en büyük takımlarından Lyon'un çatısı altında genç kulüp akademisine katılmıştır. İlk profesyonel maçına 2004-05 sezonunda çıkmıştır. Kulübüyle dört yıl üst üste şampiyonluk sevinci yaşamıştır. Fransa Ligue 1'in 2007-2008 sezonunda gol kralı olmuştur.",
         image: image_4,
     },
     {
         id: 5,
-        name: "Onur El",
-        title: "Trade Director",
-        desc: "Onur El, çalışma hayatına radyo programcısı olarak başladı. Ardından da Agesa’da sigorta satışı sonrası Migros, Şok, Real, Kaya Holding ve Avansas’ta mağaza müdürlüğünden, ticaret direktörlüğüne tüm kademelerde görev aldı. Şimdilerde ise danışmanlık ve İTÜ Çekirdek bünyesindeki girişimlere mentörlük yapıyor.",
+        name: "Muhammed Salah",
+        title: "Liverpool",
+        desc: "Muhammed Salah veya tam adıyla Muhammed Salah Hamid Mahrus Gali (Arapça: محمد صلاح حامد غالي‎; d. 15 Haziran 1992, Necric, Basyun), orta saha pozisyonunda oynayan Mısırlı millî futbolcudur. Premier League ekiplerinden Liverpool'da forma giymektedir.[3]Muhammed Salah, 2010 senesinde Mısır Premier Lig ekibi Mukavlun'da oynamaya başladı. Kısa bir süre sonra açıklanmayan bonservis bedeliyle İsviçre ekibi FC Basel'e transfer oldu. İlk sezonunda takımıyla şampiyonluk yaşadı ve ligin Altın Oyuncu Ödülü'nü kazandı. Salah'ın performansı Premier League takımı Chelsea'in dikkatini çekti ve 2014 yılında 11 milyon £ karşılığında transfer oldu. Buna rağmen ilk sezonunda kendisine gerekli fırsat tanınmadı ve Serie A takımları Fiorentina ve Roma'ya kiralandı. Daha sonra Roma tarafından 15 milyon € karşılığında bonservis bedeliyle satın alındı.",
         image: image_5,
     },
     {
         id: 6,
-        name: "İrem Çetin",
-        title: "JRUX Designer Manager and Community - Event Manager @Userspots",
-        desc: "Userspots'da JRUX Designer Projesi’ni yönetmekte olan İrem Çetin; aynı zamanda Community&Event Manager olarak da görev almaya devam ediyor. İrem Çetin ''JRUX Designer'' programıyla birlikte gelecekteki meslektaşlarının sorunlarını çözerek onları mentorluk edebildiği için mutlu olduğunu dile getiriyor.",
+        name: "Didier Drogba",
+        title: "Galatasaray",
+        desc: "Didier Yves Drogba Tébily[1] (11 Mart 1978, Abican) Fildişi Sahilli eski millî futbolcudur. 2012-2013 ve 2013-2014 sezonlarında Süper Lig ekiplerinden Galatasaray'da forma giymiştir. Futbola Levallois takımında başlayan oyuncu, 1998 yılında Le Mans takımında profesyonel olmuştur. 2003 yılında Guingamp'a transfer olan Drogba, 45 maçta 20 gol atmış ve gösterdiği performansla 2003 yılında Marsilya takımına transfer olmuştur. Burada bir sezon geçiren Didier Drogba, kariyerinde ilk kez UEFA Şampiyonlar Ligi'nde yer almış ve ilk UEFA Şampiyonlar Ligi golünü Real Madrid ağlarına yollamıştır. Lig'de oynadığı 35 maçta 19 gol kaydeden Fildişili, 2004 yılında Roman Abramoviç'in satın aldığı Chelsea takımına transfer olmuştur.",
         image: image_6,
     },
     {
         id: 7,
-        name: "Samet Atdağ",
-        title: "Co-Founder & CTO @Prisync",
-        desc: "İTÜ Bilgisayar Mühendisliği lisans programını tamamladıktan sonra Galatasaray Üniversitesi'nde yüksek lisans yapan Samet Atdağ, şimdilerde Boğaziçi Üniversitesi'nde Karmaşık Sistemler alanında doktorasına devam ediyor. Ayrıca Prisync’in kurucu ortağı ve CTO’su olarak görev alıyor.",
+        name: "Frank Lampard",
+        title: "Chelsea",
+        desc: "Frank James Lampard İngiliz eski futbolcu ve teknik direktör. İngiltere'nin orta saha oyuncusuydu. Dünyanın en iyi oyuncularından biri olarak gösterilen Lampard atak orta saha oynamıştır",
         image: image_7,
     },
     {
         id: 8,
-        name: "Barışcan Güngör",
-        title: "Co-Founder & CTO @Originium Teknoloji",
-        desc: "Barışcan Güngör, SaaS low-code ve Blockchain üzerine farklı girişimler kurmuş ve yönetmiştir. Originium Teknoloji‘de Kurucu Ortak olarak çalışmaktadır. İTÜ Çekirdek, Telekom Pilot ve benzeri oluşumlarda Teknoloji Girişimleri Mentoru ve jüri üyesi olarak ekosisteme katkı sağlamaktadır. Yıldız Teknik Üniversitesi ve Cardiff Üniversitesi Matematik Mühendisliği ve Bilgisayar Bilimleri bölümlerinden mezundur. Halen Boğaziçi Üniversitesi’nde Yapay Zeka ve Blockchain alanlarında akademik çalışmalarına devam etmekte ve MIS departmaninda yazılım derslerini vermektedir.",
+        name: "Steven Gerrard",
+        title: "Liverpool",
+        desc: "Steven George Gerrard, İngiliz eski futbolcu ve teknik direktördür. Aston Villa'yı çalıştırmaktadır. Kariyerinin büyük bir bölümünde İngiltere Premier League kulübü Liverpool'da forma giymiştir ve kaptanlık görevi yapmıştır.",
         image: image_8,
     },
     {
         id: 9,
-        name: "Barkın Özdemir",
-        title: "Marketing and Programing Strategist @HyperSpace / Influencer",
-        desc: "Barkın Özdemir, İçerik yaratıcısı, küresel maceracı ve konuşmacı. Barkın, Antarktika’ya ayak basarak bütün kıtaları ziyaret eden en genç Türk oldu. Yakın zamanda da Antarktika'ya yaptığı yolculuğa dayanan bir kitap yayınladı. Kendine has hikâye anlatma tarzı ile Y ve Z kuşağına seyahat etmeleri ve bu dünyanın sunduğu her şeyi keşfetmeleri için ilham vermeyi amaçlıyor. Şu anda dijital medya ve hikâye anlatımı konularında danışmanlık yapıyor ve sıradaki macerasını kovalıyor.",
+        name: "Selçuk İnan",
+        title: "Galatasaray",
+        desc: "Selçuk İnan, 1985 yılında İskenderun'un Karaağaç Mahallesi'nde bakkal bir babanın çocuğu olarak dünyaya geldi. 9 yaşına kadar babasının yanında çıraklık yapan İnan'ın babası Münir İnan'ın ise tek ideali ise o dönemler bir market açıp oğlunu başına geçirmekti. Bakkalda çıraklık yaptığı süreden sonra sokaklarda futbol oynamaya devam eden Selçuk, henüz 10 yaşında Karaağaç Belediyespor'un seçmelerine katıldı ve kısa sürede futbola doğduğu şehrin kulübü olan Karaağaç Belediyespor'da amatör olarak başladı.[2] Karaağaçspor'dayken idmanlardan sonra 2 saat kadar frikik vuruşu çalışıyordu. Amacı Zidane gibi büyük futbolcu olmaktı. Bu dönemde Antrenör Recep Altun'un dikkatini çeken Selçuk, bu hocayla da özel çalışmalarına devam etti. Babası ise Selçuk'a bu işte gelecek yok dese de Selçuk futbola devam etti. İlerleyen dönemde ise bir röportajda “Beş çocuklu bir ailenin tek erkek çocuğuyum. Babamın benimle ilgili planları vardı. İşleri ilerletip bir gün benim için market açmayı hayal ediyordu. Bu benim aklımın ucundan bile geçmiyordu. Ben o kepenkleri indirip şut çekme derdindeydim. Bakkalın en çok bu yönünü seviyordum. Belki ukalalık olacak ama bir gün futbolcu olacağımı biliyordum. Futbolcu olmazsan ne olursun diye soranlara Yine futbolcu olurum diye cevap verirdim. ifadelerini kullanmıştır",
         image: image_9,
     },
     {
         id: 10,
-        name: "Osman Aytaman",
-        title: "Founder & Managing Director @Impulso Advisors",
-        desc: "Osman Aytaman, Politecnico di Milano'da Endüstri Mühendisliği bölümünden mezun oldu. Mezun olduktan sonra kariyerine İtalya'nın en büyük danışmanlık firması Value Partners'da genç danışman olarak başladı. Ardından küresel bir danışmanlık firması olan Accenture'da ve dünyanın en büyük holdinglerinden biri olan General Electric'te çalıştı. Kariyeri boyunca yönetim danışmanlığı konusundaki hayallerini gerçekleştirmek için yenilikçi, enerjik ve uygulanabilir yaklaşımlar sunmayı hedeflediği Impulso Advisors'ı kısa süre önce kurdu.",
+        name: "Kevin De Bruyne",
+        title: "Manchester City",
+        desc: "Kevin De Bruyne, futbola 1997 yılında yaşadığı bölgenin takımlarından olan KVV Drongen takımıyla başladı. İki yıl bu takımın altyapısında futbol oynadıktan sonra ailesinden uzaklaşıp Gent'e transfer oldu. Gent yıllarında gösterdiği performans ile Belçika basınının dikkatini çekti, o dönem Belçika'da futbolun kötü hâlde olması sebebiyle Belçika futbolunun gelecekteki önemli yüzlerinden birisi olacağı tahmin edilmeye başlandı.[3] Hayatının bu döneminde genç takımdan kazandığı gelir ile idare etti, ailesinden maddi anlamda destek almadı.[4] 14 yaşındayken Genk'e transfer oldu. Genk'teki ilk yıllarında takımın anlaşmalı olduğu bir aile ile yaşamaya başladı fakat kapalı bir karaktere sahip olduğu için bir süre sonra aile tarafından istenmedi. Kevin bu durumun kariyerinin kırılma noktalarından birisi olduğunu söylemiştir",
         image: image_10,
     },
     {
         id: 11,
-        name: "Yiğit Erdoğan",
-        title: "Senior CRO Specialist @IKEA",
-        desc: "Yiğit Erdoğan, Ege Üniversitesi İstatistik mezunu ve AIESEC Alumnisi’dir. İzmir, Atina, Florida ve İstanbul'dan sonra şuan Malmö'de yaşamına devam ediyor. Son 5 senedir dijital veri analitiği ve dönüşüm optimizasyonu üzerine çalışan Yiğit Erdoğan, Yemeksepeti’nin ardından IKEA’da Senior CRO Specialist olarak kariyer yolculuğuna devam etmektedir.",
+        name: "Wesley Sneijder",
+        title: "Galatasaray",
+        desc: "Wesley Sneijder, Hollandalı eski futbolcudur. Ofansif orta saha pozisyonunda görev yapan oyuncu, En son Katar ligi ekiplerinden El-Ğarafe takımında forma giydikten sonra başka bir takımla anlaşmayıp futbolu 2019 yazında bıraktığını açıklamıştır",
         image: image_11,
     },
     {
         id: 12,
-        name: "Kemal Hakimoğlu",
-        title: "Italy Technology Sales Manager @Randstad",
-        desc: "Kemal Hakimoğlu, Dokuz Eylül Üniversitesi Çalışma Ekonomisi ve Endüstri İlişkileri bölümünden mezun olmuştur. 10 yılı aşkın kariyerinde teknoloji ve insan kaynakları alanında deneyim kazanmıştır. SaaS alanında farklı satış görevlerinde bulunmuştur. İTÜ Çekirdek, Yıldız Teknopark ve AIESEC gibi kurumlarda teknoloji girişimleri mentoru olarak destek vermektedir. Hali hazırda Randstad İtalya Teknoloji Satış Müdürü olarak görevine devam etmektedir.",
+        name: "Gheorghe Hagi",
+        title: "Galatasaray",
+        desc: "Gheorghe Hagi (d. 5 Şubat 1965, Săcele), orta saha mevkiisinde oynamış Rumen eski futbolcu, teknik direktördür. Karpatların Maradonası lakabı ile anılsa da bundan hiç hoşlanmamıştır.[1] Hagi, 1980'li ve 90'lı yıllarda dünyanın en iyi oyuncularından biri olarak kabul edildi[2] ve çoğu kişi tarafından tüm zamanların en büyük Romen futbolcusu olarak kabul edilmektedir.[3][4] Aynı zamanda Romanya millî futbol takımında (Adrian Mutu ile birlikte) 35 golle tüm zamanların önde gelen golcüsüdür.",
         image: image_12,
     },
 ]

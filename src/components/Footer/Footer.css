@@ -68,3 +68,35 @@ footer .footer .footer-bottom .footer-icons {
 footer .footer .footer-bottom .footer-icons i:hover {
     color: #6c757d;
 }
+
+/* responsive */
+
+@media only screen and (max-width:992px) {
+    footer .footer h2 {
+        font-size: 1.85rem;
+    }
+
+    footer .footer .footer-bottom .footer-text {
+        font-size: 1.25rem;
+    }
+
+    footer .footer .footer-bottom .footer-icons {
+        font-size: 2rem;
+        margin-left: 1.5rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    footer .footer h2 {
+        font-size: 1.45rem;
+    }
+
+    footer .footer .footer-bottom .footer-text {
+        font-size: 1rem;
+    }
+
+    footer .footer .footer-bottom .footer-icons {
+        font-size: 1.75rem;
+        margin-left: 2rem;
+    }
+}

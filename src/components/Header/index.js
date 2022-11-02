@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+//import { useNavigate } from "react-router-dom";
 import Header_Img from "../../images/svg/header-img.2c22aba1.svg";
 import svg_1 from "../../images/svg/cardImg1.f2939aa4.svg";
 import svg_2 from "../../images/svg/cardImg2.456b17f6.svg";
@@ -10,11 +10,11 @@ import svg_6 from "../../images/svg/logo.png";
 import "./Header.css";
 
 const Header = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const handleClickNavigate = () => {
-    navigate("/text-form");
-  };
+  // const handleClickNavigate = () => {
+  //   navigate("/text-form");
+  // };
 
   return (
     <header>
@@ -33,7 +33,7 @@ const Header = () => {
           <button
             type="button"
             className="header-btn"
-            onClick={handleClickNavigate}
+            // onClick={handleClickNavigate}
           >
             Teste Başla!
           </button>

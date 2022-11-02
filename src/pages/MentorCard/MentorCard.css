@@ -73,6 +73,32 @@
 .card .card-text p>.card-btn:hover {
     font-weight: 500;
 }
+/* Modal */
+.m-card .modal img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.m-card .modal .modal-text .m-name,
+.m-card .modal .modal-text .m-title {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: normal;
+    font-family: inherit;
+}
+
+.m-card .modal .modal-text .m-desc {
+    margin-bottom: 1rem;
+    font-size: 1.65rem;
+    font-weight: 300;
+    line-height: normal;
+    font-family: inherit;
+    color: #212529;
+}
 
 /* Responsive */
 @media screen and (max-width:768px) {

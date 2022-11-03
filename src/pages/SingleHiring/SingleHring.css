@@ -1,0 +1,58 @@
+.card-hiring {
+    width: 350px;
+    height: 350px;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 5rem;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.card-hiring img {
+    width: 95px;
+    height: 95px;
+    object-fit: cover;
+    object-position: center;
+    margin: 1rem 0rem;
+}
+
+.card-hiring .card-hiring-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card-hiring .card-hiring-text h3 {
+    font-size: 2.25rem;
+    font-weight: 500;
+    font-family: inherit;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.card-hiring .card-hiring-text .card-hiring-title span {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: inherit;
+    letter-spacing: normal;
+    line-height: normal;
+    margin: 1rem;
+    padding-left: 0.5em;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.card-hiring .card-hiring-text .card-hiring-title span i {
+    color: #7d97f2;
+    font-size: 1.2rem;
+    padding-left: 0.5em;
+    position: absolute;
+    top: 0;
+    left: -15%;
+}

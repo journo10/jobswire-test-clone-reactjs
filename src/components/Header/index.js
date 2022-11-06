@@ -10,12 +10,6 @@ import svg_6 from "../../images/svg/logo.png";
 import "./Header.css";
 
 const Header = () => {
-  // const navigate = useNavigate();
-
-  // const handleClickNavigate = () => {
-  //   navigate("/text-form");
-  // };
-
   return (
     <header>
       <div className="container">
@@ -33,7 +27,6 @@ const Header = () => {
           <button
             type="button"
             className="header-btn"
-            // onClick={handleClickNavigate}
           >
             Teste Başla!
           </button>

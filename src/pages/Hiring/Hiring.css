@@ -25,3 +25,142 @@ p {
     flex-wrap: wrap;
     gap: 2rem;
 }
+
+.container-hiring .card-hiring {
+    width: 350px;
+    height: 375px;
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 5rem;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.container-hiring .card-hiring img {
+    width: 95px;
+    height: 95px;
+    object-fit: cover;
+    object-position: center;
+    margin: 1rem 0rem;
+}
+
+.container-hiring .card-hiring .card-hiring-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container-hiring .card-hiring .card-hiring-text h3 {
+    font-size: 2.25rem;
+    font-weight: 500;
+    font-family: inherit;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.container-hiring .card-hiring .card-hiring-text .card-hiring-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.container-hiring .card-hiring .card-hiring-text .card-hiring-title span {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 1.35rem;
+    font-weight: 500;
+    font-family: inherit;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.container-hiring .card-hiring .card-hiring-text .card-hiring-title span i {
+    color: #7d97f2;
+}
+
+.container-hiring .card-hiring .card-hiring-text .card-hiring-title span .social {
+    color: #f4756c;
+}
+
+.container-hiring .card-hiring .card-hiring-text .card-hiring-desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.container-hiring .card-hiring .card-hiring-text .card-hiring-desc span {
+    background-color: #7d97f2;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.container-hiring .card-hiring .card-hiring-text .card-hiring-desc .social {
+    background-color: #f4756c;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.container-hiring .card-hiring .card-hiring-btn {
+    width: 35%;
+    outline: none;
+    font-size: 1.75rem;
+    color: #f4756c;
+    box-shadow: 0 3px 6px 0 #0000004d;
+    padding: 0.65rem;
+    margin: 1.75rem 0rem;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    text-align: center;
+    line-height: normal;
+    letter-spacing: normal;
+    background: transparent;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.container-hiring .card-hiring .card-hiring-btn:hover {
+    background-color: #f4756c;
+    color: #fff;
+}
+
+/* Responsive */
+@media only screen and (max-width:1199px) {
+    .container-hiring {
+        max-width: 1000px;
+        height: auto;
+    }
+
+    .container-hiring .card-hiring {
+        width: 475px;
+        height: auto;
+    }
+
+    .container-hiring .card-hiring img {
+        width: 180px;
+        height: 180px;
+        object-fit: cover;
+        object-position: center;
+        margin: 1rem 0rem;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .container-hiring .card-hiring {
+        width: 700px;
+        height: auto;
+    }
+}

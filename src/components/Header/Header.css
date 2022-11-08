@@ -187,21 +187,6 @@ header .wrapper .wrapper-text .wrapper-desc p {
         object-fit: cover;
         object-position: center;
     }
-
-    header .container .header-text .header-btn {
-        width: 60%;
-        height: 5rem;
-        padding: 1rem;
-        cursor: pointer;
-        background-color: transparent;
-        border-radius: 2rem;
-        border: 2px solid #f4756c;
-        outline: none;
-        color: #f4756c;
-        font-size: 1.75rem;
-        font-weight: 500;
-        letter-spacing: .25rem;
-    }
 }
 
 @media only screen and (max-width:992px) {

@@ -17,12 +17,12 @@ div p {
     max-width: 1200px;
     height: auto;
     width: 100%;
-    margin: 3rem auto;
-    padding: 4rem 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
 .container-form img {
@@ -40,7 +40,6 @@ div p {
     justify-content: center;
     flex-direction: column;
     gap: 3rem;
-    margin-left: 7rem;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     border-radius: 5rem;
     padding: 1.75rem 0rem;
@@ -99,4 +98,40 @@ div p {
 .container-form form .form-btn:hover {
     background-color: #f4756c;
     color: #fff;
+}
+
+/* Responsive */
+@media only screen and (max-width:992px) {
+    .container-form img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .container-form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .container-form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+
+    .container-form form {
+        width: 350px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 }

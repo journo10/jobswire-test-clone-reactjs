@@ -10,8 +10,8 @@ import image_9 from "../images/png/selçuk.png";
 import image_10 from "../images/png/kevin.png";
 import image_11 from "../images/png/wesley-sneijder.png";
 import image_12 from "../images/png/hagi.png";
-// import img_hiring_1 from "../images/svg/HiringE.83d6e6e4.svg";
-// import img_hiring_2 from "../images/svg/HiringK.bc63dbc9.svg";
+import img_hiring_1 from "../images/svg/HiringE.83d6e6e4.svg";
+import img_hiring_2 from "../images/svg/HiringK.bc63dbc9.svg";
 
 export const data = [
   {
@@ -100,53 +100,53 @@ export const data = [
   },
 ];
 
-// export const hiringData = [
-//   {
-//     id: 1,
-//     title: "Back End Developer",
-//     text: [
-//       { id: 1, name: "Gönüllü" },
-//       { id: 2, name: "Remote" },
-//       { id: 3, name: "1 Yıl Deneyim" },
-//     ],
-//     desc: [
-//       { id: 1, name: "Node Js" },
-//       { id: 2, name: "Express Js" },
-//       { id: 3, name: "Rest API" },
-//       { id: 4, name: "Mango DB" },
-//     ],
-//     image: img_hiring_1,
-//   },
-//   {
-//     id: 2,
-//     title: "Front End Developer",
-//     text: [
-//       { id: 1, name: "Gönüllü" },
-//       { id: 2, name: "Remote" },
-//       { id: 3, name: "1 Yıl Deneyim" },
-//     ],
-//     desc: [
-//       { id: 1, name: "React Js" },
-//       { id: 2, name: "Html Html5" },
-//       { id: 3, name: "CSS SCSS" },
-//       { id: 4, name: "Rest API" },
-//     ],
-//     image: img_hiring_1,
-//   },
-//   {
-//     id: 3,
-//     title: "Sosyal Medya Stajyeri",
-//     text: [
-//       { id: 1, name: "Gönüllü" },
-//       { id: 2, name: "Remote" },
-//       { id: 3, name: "1 Yıl Deneyim" },
-//     ],
-//     desc: [
-//       { id: 1, name: "Adobe Ps" },
-//       { id: 2, name: "Adobe Ai" },
-//       { id: 3, name: "Google Ads" },
-//       { id: 4, name: "Facebook BM" },
-//     ],
-//     image: img_hiring_2,
-//   },
-// ];
+export const hiringData = [
+  {
+    id: 1,
+    title: "Back End Developer",
+    text: [
+      { id: 1, name: "Gönüllü" },
+      { id: 2, name: "Remote" },
+      { id: 3, name: "1 Yıl Deneyim" },
+    ],
+    desc: [
+      { id: 1, name: "Node Js" },
+      { id: 2, name: "Express Js" },
+      { id: 3, name: "Rest API" },
+      { id: 4, name: "Mango DB" },
+    ],
+    image: img_hiring_1,
+  },
+  {
+    id: 2,
+    title: "Front End Developer",
+    text: [
+      { id: 1, name: "Gönüllü" },
+      { id: 2, name: "Remote" },
+      { id: 3, name: "1 Yıl Deneyim" },
+    ],
+    desc: [
+      { id: 1, name: "React Js" },
+      { id: 2, name: "Html Html5" },
+      { id: 3, name: "CSS SCSS" },
+      { id: 4, name: "Rest API" },
+    ],
+    image: img_hiring_1,
+  },
+  {
+    id: 3,
+    title: "Sosyal Medya Stajyeri",
+    text: [
+      { id: 1, name: "Gönüllü" },
+      { id: 2, name: "Remote" },
+      { id: 3, name: "1 Yıl Deneyim" },
+    ],
+    desc: [
+      { id: 1, name: "Adobe Ps" },
+      { id: 2, name: "Adobe Ai" },
+      { id: 3, name: "Google Ads" },
+      { id: 4, name: "Facebook BM" },
+    ],
+    image: img_hiring_2,
+  },
+];

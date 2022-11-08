@@ -1,10 +1,14 @@
 import React from "react";
 import "./Modal.css";
 
-const Modal = ({ openModal, onClose, item, children }) => {
+const Modal = ({ openModal, setOpenModal, children }) => {
   if (!openModal) {
     return null;
   }
+
+  const onClose = () => {
+    setOpenModal(false);
+  };
 
   return (
     <div className="m-card">

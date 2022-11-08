@@ -6,7 +6,7 @@ const JobSwireContext = createContext();
 
 export const JobSwireProvider = ({ children }) => {
   const [items, setItems] = useState(data);
-  // const [itemsHiring, setItemsHirring] = useState(hiringData);
+  const [itemsHiring, setItemsHirring] = useState(hiringData);
 
   //console.log(items);
   //console.log(itemsHiring);
@@ -14,8 +14,8 @@ export const JobSwireProvider = ({ children }) => {
   const values = {
     items,
     setItems,
-    // itemsHiring,
-    // setItemsHirring,
+    itemsHiring,
+    setItemsHirring,
   };
   return (
     <JobSwireContext.Provider value={values}>

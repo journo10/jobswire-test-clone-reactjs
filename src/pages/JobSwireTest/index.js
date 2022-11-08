@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import Mentors from "../Mentors";
+import Hiring from "../Hiring";
+import Contact from "../Contact";
 
 const JobSwireTest = () => {
   return (
-    <div>JobSwireTest</div>
-  )
-}
+    <>
+      <Mentors />
+      <Hiring />
+      <Contact />
+    </>
+  );
+};
 
 export default JobSwireTest;

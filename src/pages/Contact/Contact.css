@@ -1,0 +1,102 @@
+div h1 {
+    margin: 2.75rem 0rem;
+    font-size: 3.75rem;
+    font-weight: 500;
+    color: #00000080;
+    text-align: center;
+}
+
+div p {
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #00000080;
+    text-align: center;
+}
+
+.container-form {
+    max-width: 1200px;
+    height: auto;
+    width: 100%;
+    margin: 3rem auto;
+    padding: 4rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-form img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.container-form form {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+    margin-left: 7rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 5rem;
+    padding: 1.75rem 0rem;
+}
+
+.container-form form .form-input {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: normal;
+    width: 250px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+}
+
+.container-form form .form-input:focus {
+    border-bottom: 1px solid #000;
+    ;
+}
+
+.container-form form .form-textarea {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: normal;
+    width: 250px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    resize: none;
+}
+
+.container-form form .form-btn {
+    width: 25%;
+    outline: none;
+    font-size: 1.75rem;
+    color: #f4756c;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 0.65rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    text-align: center;
+    line-height: normal;
+    letter-spacing: normal;
+    background: transparent;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.container-form form .form-btn:hover {
+    background-color: #f4756c;
+    color: #fff;
+}

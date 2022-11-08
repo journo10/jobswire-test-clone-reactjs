@@ -1,34 +1,42 @@
-// import React from "react";
-// import "./SingleHring.css";
+import React, { useState } from "react";
+import HiringButtonModal from "../HiringButtonModal";
+import Modal from "../Modal";
+import "./SingleHring.css";
 
-// const SingleHiring = ({ itemsHiringData }) => {
-//   return (
-//     <div className="card-hiring">
-//       <img src={itemsHiringData.image} alt="card-img" />
-//       <div className="card-hiring-text">
-//         <h3 className="card-hiring-name">{itemsHiringData.title}</h3>
-//         <span className="card-hiring-title">
-//           {itemsHiringData.text.map((t) => (
-//             <span key={t.id}>
-//               <i className="fa-solid fa-location-crosshairs"></i>
-//               {t.name}
-//             </span>
-//           ))}
-//         </span>
-//         <span className="card-hiring-desc">
-//           {itemsHiringData.desc.map((d) => (
-//             <span key={d.id}>{d.name}</span>
-//           ))}
-//         </span>
-//         <button type="button" className="card-hiring-btn">
-//           Başvur!
-//         </button>
-//       </div>
-//     </div>
-//   );
-// };
+const SingleHiring = ({ itemsHiringData }) => {
+  const [openModal, setOpenModal] = useState(false);
 
-// export default SingleHiring;
+  return (
+    <div className="card-hiring">
+      <img src={itemsHiringData.image} alt="card-img" />
+      <div className="card-hiring-text">
+        <h3 className="card-hiring-name">{itemsHiringData.title}</h3>
+        <div className="card-hiring-title">
+          {itemsHiringData.text.map((t) => (
+            <span key={t.id}>
+              <i className="fa-solid fa-location-crosshairs"></i>
+              {t.name}
+            </span>
+          ))}
+        </div>
+        <div className="card-hiring-desc">
+          {itemsHiringData.desc.map((d) => (
+            <span key={d.id}>{d.name}</span>
+          ))}
+        </div>
+      </div>
+      <button
+        onClick={() => setOpenModal(true)}
+        type="button"
+        className="card-hiring-btn"
+      >
+        Başvur!
+      </button>
+      <Modal openModal={openModal} setOpenModal={setOpenModal}>
+        <HiringButtonModal />
+      </Modal>
+    </div>
+  );
+};
 
-
-// İPTAL 
+export default SingleHiring;

@@ -1,0 +1,103 @@
+div h2 {
+    color: #f4756c;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    line-height: normal;
+}
+
+div p {
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    line-height: normal;
+    margin: 0.5rem 0 1.75rem 0;
+}
+
+div form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+div form .f-input {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+div form .f-input label {
+    font-size: 1.35rem;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+div form .f-input input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000000;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+div form .f-file input[type="file"] {
+    display: none;
+}
+
+div form .f-file label {
+    display: inline-block;
+    font-size: 1.65rem;
+    font-size: 500;
+    line-height: normal;
+    letter-spacing: normal;
+    padding: 0.5rem 2rem;
+    box-shadow: 0 3px 6px 0 rgb(0, 0, 0, 30%);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    color: #f4756c;
+    background: transparent;
+}
+
+div form .f-file label:hover {
+    background-color: #f4756c;
+    color: #ffffff;
+}
+
+div form .form-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0rem;
+}
+
+div form .form-button button {
+    border: none;
+    outline: none;
+    padding: 1rem 2rem;
+    font-size: 1.65rem;
+    font-size: 500;
+    line-height: normal;
+    letter-spacing: normal;
+    box-shadow: 0 3px 6px 0 rgb(0, 0, 0, 30%);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    color: #f4756c;
+    background: transparent;
+}
+
+div form .form-button button:hover {
+    background-color: #f4756c;
+    color: #ffffff;
+}

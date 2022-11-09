@@ -33,7 +33,10 @@ const SingleHiring = ({ itemsHiringData }) => {
         Başvur!
       </button>
       <Modal openModal={openModal} setOpenModal={setOpenModal}>
-        <HiringButtonModal />
+        <HiringButtonModal
+          itemsHiringData={itemsHiringData}
+          setOpenModal={setOpenModal}
+        />
       </Modal>
     </div>
   );

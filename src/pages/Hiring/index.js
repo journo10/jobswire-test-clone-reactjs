@@ -8,7 +8,7 @@ const Hiring = () => {
   return (
     <div>
       <h1>#Hiring</h1>
-      <p>CV göndererek ekibimize katılabilirsin!</p>
+      <p className="h-title">CV göndererek ekibimize katılabilirsin!</p>
       <div className="container-hiring">
         {itemsHiring.map((itemsHiringData, index) => (
           <SingleHiring key={index} itemsHiringData={itemsHiringData} />

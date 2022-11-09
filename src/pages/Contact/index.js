@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div>
       <h1>İletişim</h1>
-      <p>Aklına takılan tüm sorularda bize ulaşabilirsin!</p>
+      <p className="c-title">Aklına takılan tüm sorularda bize ulaşabilirsin!</p>
       <div className="container-form">
         <img src={contact_img} alt="form" />
         <form>
